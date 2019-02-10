@@ -1,0 +1,31 @@
+/* BEGIN CUSTOM CONTEXT MENU STYLE */
+#items{
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  margin:5px 0 0 5px;
+  font-size:20px;
+  
+}
+
+#cntnr{
+  display:none;
+  position:fixed;
+  border:1px solid grey;
+  width:auto;
+  background: #CDCDCD;
+  box-shadow: 2px 2px 1px grey;
+  z-index: 16777271;
+}
+
+li{
+  border-bottom:1px solid grey;
+  border-bottom-style:dotted;
+}
+
+
+#items :hover{
+   background: grey;
+   color: white;
+}
+/* END CUSTOM CONTEXT MENU STYLE */
